@@ -4,7 +4,7 @@ type Plan = {
   price: number;
 }
 
-type Plans = Record<string, Plan>;
+export type Plans = Record<string, Plan>;
 
 export const PLANS: Plans = {
   free: {

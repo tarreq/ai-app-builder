@@ -123,7 +123,7 @@ export default function Home() {
                 <Button
                   onClick={handleSubmit}
                   disabled={!prompt.trim()}
-                  className="h-8 rounded-full px-5 font-semibold"
+                  className="h-8 rounded-full px-5 font-semibold cursor-pointer"
                   variant={prompt.trim() ? "default" : "secondary"}
                 >
                   Generate
